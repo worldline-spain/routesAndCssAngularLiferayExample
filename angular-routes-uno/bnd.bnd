@@ -1,0 +1,5 @@
+Bundle-Name: angular-routes-uno
+Bundle-SymbolicName: angular.routes.uno
+Bundle-Version: 1.0.0
+Export-Package: angular.routes.uno.constants
+Web-ContextPath: /angular-routes-uno
