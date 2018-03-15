@@ -9,12 +9,12 @@ import { HomeComponent } from '../home/home.component';
 import { ChartModule } from 'primeng-wl/chart';
 import { GalleriaModule } from 'primeng-wl/galleria';
 
-import { routes } from './app.routes';
-import 'chart.js/dist/Chart.min'
+import { AppRoutingModule } from './app-routing.module';
+import 'chart.js/dist/Chart.min';
 
 @NgModule({
 	imports: [
-		RouterModule.forRoot(routes),
+		AppRoutingModule,
 		BrowserModule,
 		ChartModule,
 		GalleriaModule
